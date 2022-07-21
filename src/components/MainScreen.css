@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=K2D:wght@300;400;500&family=Kulim+Park&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --twitch-purple: #9146ff;
+  --twitch-background: #18181b;
+}
+
+.main-screen {
+  display: flex;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1600px) {
+}

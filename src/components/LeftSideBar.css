@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=K2D:wght@300;400;500&family=Kulim+Park&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --twitch-purple: #9146ff;
+  --twitch-background: #18181b;
+}
+
+.left-sidebar-container {
+  width: 240px;
+  float: left;
+  height: 100vh;
+  background-color: #141415;
+  display: flex;
+  flex-direction: column;
+}
+
+.rec-text {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.streamer-div {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.streamer-img {
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.streamer-img:hover {
+  opacity: 0.3;
+}
+
+.streamer-name {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.streamer-name:hover {
+  text-decoration: underline;
+}
+
+.live-logo {
+  position: absolute;
+  left: 160px;
+  width: 15px;
+}
+
+.viewcount {
+  position: absolute;
+  left: 190px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1600px) {
+}

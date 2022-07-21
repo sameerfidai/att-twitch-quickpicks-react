@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=K2D:wght@300;400;500&family=Kulim+Park&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --twitch-purple: #9146ff;
+  --twitch-background: #18181b;
+}
+
+.middle-section-container {
+  height: 100vh;
+  background-color: black;
+}
+
+.gameplay-img {
+  width: 100%;
+}
+
+.streamer-bar {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.stream-info-div {
+  margin-left: 10px;
+}
+
+.streamer-stream-img {
+  width: 60px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.streamer-stream-img:hover {
+  opacity: 0.65;
+}
+
+.streamer-stream-name {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.streamer-stream-desc {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.streamer-stream-game {
+  color: var(--twitch-purple);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.streamer-stream-game:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1600px) {
+  .gameplay-img {
+    width: 870px;
+  }
+}

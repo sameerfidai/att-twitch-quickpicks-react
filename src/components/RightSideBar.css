@@ -1,0 +1,642 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=K2D:wght@300;400;500&family=Kulim+Park&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --twitch-purple: #9146ff;
+  --twitch-background: #18181b;
+  --att-main: #00a8e0;
+}
+
+.right-sidebar-container {
+  background-color: #0b0a0a;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.att-div {
+  margin-top: 6px;
+  width: 480px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.att-logo-white {
+  width: 100px;
+}
+
+.quickpicks-text {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.att-sidebar-div {
+  margin-top: 20px;
+  width: 480px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--twitch-purple);
+}
+
+.bet {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 360px;
+  height: 100px;
+  background-color: black;
+}
+
+.bet-streamer-img-div {
+  margin-left: 20px;
+}
+
+.bet-streamer-img {
+  width: 60px;
+  border-radius: 50px;
+}
+
+.bet-streamer-info-div {
+  margin-left: 10px;
+}
+
+.bet-streamer-name {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.bet-streamer-game {
+  color: var(--twitch-purple);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.bet-info {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 6px;
+}
+
+.bet-number {
+  position: relative;
+  left: 10px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.over-under-div {
+  position: relative;
+  left: 25px;
+  margin-left: 20%;
+  width: 75px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.over-div {
+  background-color: var(--twitch-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.over-div:hover {
+  opacity: 0.6;
+}
+
+.over-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.under-div {
+  background-color: var(--twitch-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.under-div:hover {
+  opacity: 0.6;
+}
+
+.under-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.payout-container {
+  margin-top: 20px;
+  background-color: black;
+  width: 360px;
+  height: 180px;
+  display: flex;
+}
+
+.left-container {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 240px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.risk-win-btn-select-div {
+  margin-top: 10px;
+  display: flex;
+  width: inherit;
+}
+
+.risk-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 70px;
+}
+
+.risk-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.risk-field {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: #d9d9d9;
+}
+
+.risk-amount {
+  color: var(--twitch-purple);
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.win-amount {
+  color: #229817;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.win-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 70px;
+}
+
+.win-field {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: #d9d9d9;
+}
+
+.payouts-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+
+.payout-1 {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.green-dot {
+  width: 12px;
+  margin-right: 10px;
+}
+
+.payout-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 13px;
+}
+
+.payout-multiplier-div {
+  margin-top: 1px;
+  height: 18px;
+  margin-left: 32px;
+  width: 50px;
+  background-color: var(--twitch-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.payout-multiplier-div:hover {
+  opacity: 0.6;
+}
+
+.payout-multiplier-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.right-container {
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 76px;
+  height: 140px;
+}
+
+.balance-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.balance-text {
+  margin-top: 10px;
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 13px;
+}
+
+.balance-amount {
+  margin-top: 6px;
+  color: var(--twitch-purple);
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 13px;
+}
+
+.moreplays-div {
+  width: 60px;
+  margin-top: 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--twitch-purple);
+  cursor: pointer;
+}
+
+.moreplays-div:hover {
+  opacity: 0.6;
+}
+
+.more-plays-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.pick-plays-btn-div {
+  margin-top: 50px;
+  width: 360px;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pick-plays-btn-div:hover {
+  opacity: 0.75;
+}
+
+.pick-plays-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.att-gaming-div {
+  margin-top: 50px;
+  background-color: var(--att-main);
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+}
+
+.att-gaming-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.att-gaming-down:hover {
+  opacity: 0.6;
+}
+
+.att-gaming-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.att-gaming-top:hover {
+  opacity: 0.6;
+}
+
+.claim-rewards-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+}
+
+.att-gaming-text {
+  color: white;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1600px) {
+  .att-div {
+    width: 280px;
+  }
+
+  .att-logo-white {
+    width: 80px;
+  }
+
+  .quickpicks-text {
+    font-size: 20px;
+  }
+
+  .att-sidebar-div {
+    margin-top: 0px;
+    width: 280px;
+    height: 500px;
+  }
+
+  .bet {
+    width: 260px;
+    height: 80px;
+  }
+
+  .bet-streamer-img-div {
+    margin-left: 10px;
+  }
+
+  .bet-streamer-img {
+    width: 50px;
+  }
+
+  .bet-streamer-name {
+    font-size: 16px;
+  }
+
+  .bet-streamer-game {
+    font-size: 12px;
+  }
+
+  .bet-info {
+    font-size: 10px;
+  }
+
+  .bet-number {
+    font-size: 16px;
+  }
+
+  .over-under-div {
+    margin-left: 20px;
+    width: 55px;
+    height: inherit;
+  }
+
+  .over-div {
+    width: 52px;
+    height: 20px;
+  }
+
+  .over-text {
+    font-size: 12px;
+  }
+
+  .under-div {
+    width: 52px;
+    height: 20px;
+  }
+
+  .under-text {
+    font-size: 12px;
+  }
+
+  .payout-container {
+    width: 260px;
+  }
+
+  .left-container {
+    width: 170px;
+  }
+
+  .risk-win-btn-select-div {
+    justify-content: space-around;
+    width: 100px;
+  }
+
+  .risk-div {
+    width: 40px;
+  }
+
+  .risk-text {
+    font-size: 12px;
+  }
+
+  .risk-field {
+    width: 30px;
+  }
+
+  .risk-amount {
+    font-size: 12px;
+  }
+
+  .win-amount {
+    font-size: 12px;
+  }
+
+  .win-div {
+    width: 45px;
+  }
+
+  .win-field {
+    width: 40px;
+  }
+
+  .green-dot {
+    width: 10px;
+  }
+
+  .payout-text {
+    font-size: 10px;
+  }
+
+  .payout-multiplier-div {
+    margin-left: 12px;
+    width: 40px;
+  }
+
+  .payout-multiplier-text {
+    font-size: 12px;
+  }
+
+  .right-container {
+    margin-left: -10px;
+  }
+
+  .balance-text {
+    font-size: 16px;
+  }
+
+  .balance-amount {
+    font-size: 11px;
+  }
+
+  .moreplays-div {
+    width: 50px;
+  }
+
+  .more-plays-text {
+    font-size: 12px;
+  }
+
+  .pick-plays-btn-div {
+    margin-top: 10px;
+    height: 50px;
+    width: 260px;
+  }
+
+  .pick-plays-text {
+    font-size: 16px;
+  }
+
+  .att-gaming-div {
+    margin-top: 16px;
+    width: 280px;
+    height: 90px;
+  }
+
+  .att-gaming-down {
+    width: 150px;
+    height: 30px;
+  }
+
+  .att-gaming-down:hover {
+    opacity: 0.6;
+  }
+
+  .att-gaming-top {
+    width: 150px;
+    height: 30px;
+  }
+
+  .claim-rewards-text {
+    font-size: 13px;
+  }
+
+  .att-gaming-text {
+    font-size: 13px;
+  }
+}
