@@ -173,7 +173,7 @@ function RightSideBar() {
 
       <div className="att-gaming-div">
         <div className="att-gaming-top">
-          <p className="att-gaming-text">AT&T Gaming</p>
+          <p className="att-gaming-text">AT&T GAMING</p>
         </div>
         <div className="att-gaming-down">
           <p className="claim-rewards-text">CLAIM REWARDS</p>

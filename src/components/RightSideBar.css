@@ -348,7 +348,7 @@
 .moreplays-div {
   width: 60px;
   margin-top: 20px;
-  height: 80px;
+  height: 76px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -622,7 +622,7 @@
 
   .moreplays-div {
     width: 50px;
-    margin-top: 11px;
+    margin-top: 10px;
   }
 
   .more-plays-text {
@@ -1087,7 +1087,7 @@
   }
 
   .over-under-div {
-    margin-left: 20px;
+    margin-left: 25px;
     width: 55px;
     height: inherit;
   }
@@ -1170,22 +1170,22 @@
 
   .right-container {
     margin-left: -10px;
-    margin-right: 12px;
+    margin-right: 14px;
     margin-top: 28px;
   }
 
   .balance-text {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 5px;
   }
 
   .balance-amount {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .moreplays-div {
     width: 50px;
-    margin-top: 23px;
+    margin-top: 28px;
   }
 
   .more-plays-text {
