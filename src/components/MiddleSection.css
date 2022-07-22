@@ -73,8 +73,43 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1600px) {
+/*
+@media screen and (min-width: 300px) and (max-width: 1920px) {
+  .gameplay-img {
+    width: 1200px;
+  }
+}
+*/
+
+/* Small screen max-width 640px */
+@media only screen and (max-width: 40em) {
+}
+
+/* Medium screen min-width 641px */
+@media only screen and (min-width: 40.063em) {
+}
+
+/* Medium screen min-width 641px and max-width 1024px */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+}
+
+/* Large screen min-width 1025px and max-width 1440px */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .gameplay-img {
+    width: 750px;
+  }
+}
+
+/* Extra large screens min-width 1440px and max-width 1920px*/
+@media only screen and (min-width: 90em) and (max-width: 120em) {
   .gameplay-img {
     width: 870px;
+  }
+}
+
+/* Extra Extra large screens min-width 1920px */
+@media only screen and (min-width: 120em) {
+  .gameplay-img {
+    width: 1300px;
   }
 }

@@ -79,5 +79,80 @@
   line-height: 19px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1600px) {
+/* Small screen max-width 640px */
+@media only screen and (max-width: 40em) {
+}
+
+/* Medium screen min-width 641px */
+@media only screen and (min-width: 40.063em) {
+}
+
+/* Medium screen min-width 641px and max-width 1024px */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+}
+
+/* Large screen min-width 1025px */
+@media only screen and (min-width: 64.063em) {
+}
+
+/* Large screen min-width 1025px and max-width 1440px */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .rec-text {
+    font-size: 16px;
+  }
+
+  .left-sidebar-container {
+    width: 200px;
+  }
+
+  .streamer-name {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .live-logo {
+    position: absolute;
+    left: 140px;
+    width: 11px;
+  }
+
+  .viewcount {
+    left: 160px;
+    font-size: 12px;
+  }
+}
+
+/* Extra large screens  min-width 1440px */
+@media only screen and (min-width: 90em) {
+}
+
+/* Extra large screens  min-width 1440px and max-width 1920px */
+@media only screen and (min-width: 90em) and (max-width: 120em) {
+  .left-sidebar-container {
+    width: 240px;
+  }
+
+  .streamer-name {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .live-logo {
+    position: absolute;
+    left: 170px;
+    width: 13px;
+  }
+
+  .viewcount {
+    left: 190px;
+    font-size: 14px;
+  }
+
+  .streamer-div {
+    margin-left: 20px;
+  }
+}
+
+/* Extra Extra large screens min-width 1920px */
+@media only screen and (min-width: 120em) {
 }

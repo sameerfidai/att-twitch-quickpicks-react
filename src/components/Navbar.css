@@ -60,7 +60,7 @@ nav {
 .search-bar {
   border: 1px solid black;
   text-align: center;
-  background-color: gray;
+  background-color: rgb(88, 88, 88);
   color: white;
   width: 350px;
   height: 30px;
@@ -101,6 +101,7 @@ nav {
   border: none;
   margin-right: 15px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .login-btn:hover {
@@ -119,11 +120,9 @@ nav {
   line-height: 18px;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .signup-btn:hover {
   opacity: 0.6;
-}
-
-@media screen and (min-width: 300px) and (max-width: 1600px) {
 }

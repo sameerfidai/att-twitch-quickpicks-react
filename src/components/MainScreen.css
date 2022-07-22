@@ -13,6 +13,3 @@
 .main-screen {
   display: flex;
 }
-
-@media screen and (min-width: 300px) and (max-width: 1600px) {
-}
