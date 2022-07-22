@@ -1051,7 +1051,7 @@
 /* Extra Extra large screens min-width 1920 */
 @media only screen and (min-width: 120em) {
   .att-div {
-    width: 300px;
+    width: 310px;
   }
 
   .att-logo-white {
@@ -1227,5 +1227,195 @@
 
   .att-gaming-text {
     font-size: 13px;
+  }
+}
+
+/* Extra Extra large screens min-width 2560px */
+@media only screen and (min-width: 160em) {
+  .att-div {
+    width: 340px;
+  }
+
+  .att-logo-white {
+    width: 90px;
+  }
+
+  .quickpicks-text {
+    font-size: 20px;
+  }
+
+  .att-sidebar-div {
+    margin-top: 0px;
+    width: 340px;
+    height: 580px;
+  }
+
+  .bet {
+    width: 290px;
+    height: 90px;
+  }
+
+  .bet-streamer-img {
+    width: 58px;
+  }
+
+  .bet-streamer-name {
+    font-size: 18px;
+  }
+
+  .bet-streamer-game {
+    font-size: 14px;
+  }
+
+  .bet-info {
+    font-size: 12px;
+  }
+
+  .bet-number {
+    font-size: 18px;
+  }
+
+  .over-under-div {
+    margin-left: 20px;
+    width: 55px;
+    height: inherit;
+  }
+
+  .over-div {
+    width: 52px;
+    height: 22px;
+  }
+
+  .over-text {
+    font-size: 12px;
+  }
+
+  .under-div {
+    width: 52px;
+    height: 22px;
+  }
+
+  .under-text {
+    font-size: 12px;
+  }
+
+  .payout-container {
+    width: 290px;
+  }
+
+  .risk-win-btn-select-div {
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 22px;
+  }
+
+  .risk-div {
+    width: 45px;
+  }
+
+  .risk-text {
+    font-size: 14px;
+  }
+
+  .risk-field {
+    width: 40px;
+    padding: 2px;
+  }
+
+  .risk-amount {
+    font-size: 12px;
+  }
+
+  .win-amount {
+    font-size: 12px;
+  }
+
+  .win-div {
+    width: 45px;
+  }
+
+  .win-field {
+    width: 46px;
+    padding: 2px;
+  }
+
+  .green-dot {
+    width: 12px;
+  }
+
+  .payout-text {
+    font-size: 14px;
+  }
+
+  .payout-multiplier-div {
+    margin-left: 12px;
+    width: 40px;
+    padding: 0.75px;
+  }
+
+  .payout-multiplier-text {
+    font-size: 14px;
+  }
+
+  .right-container {
+    margin-left: -10px;
+    margin-right: 12px;
+    margin-top: 28px;
+  }
+
+  .balance-text {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .balance-amount {
+    font-size: 12px;
+  }
+
+  .moreplays-div {
+    width: 50px;
+    margin-top: 23px;
+  }
+
+  .more-plays-text {
+    font-size: 12px;
+  }
+
+  .pick-plays-btn-div {
+    margin-top: 20px;
+    height: 50px;
+    width: 270px;
+  }
+
+  .pick-plays-text {
+    font-size: 16px;
+  }
+
+  .att-gaming-div {
+    margin-top: 30px;
+    width: 340px;
+    height: 190px;
+  }
+
+  .att-gaming-down {
+    width: 250px;
+    height: 60px;
+  }
+
+  .att-gaming-down:hover {
+    opacity: 0.6;
+  }
+
+  .att-gaming-top {
+    width: 250px;
+    height: 60px;
+  }
+
+  .claim-rewards-text {
+    font-size: 18px;
+  }
+
+  .att-gaming-text {
+    font-size: 18px;
   }
 }
