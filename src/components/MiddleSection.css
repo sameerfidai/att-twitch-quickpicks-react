@@ -17,6 +17,7 @@
 
 .gameplay-img {
   width: 100%;
+  border-bottom: 2px solid rgb(40, 40, 40);
 }
 
 .streamer-bar {

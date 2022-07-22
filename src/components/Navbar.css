@@ -18,6 +18,7 @@ nav {
   background-color: var(--twitch-background);
   height: 40px;
   color: white;
+  border-bottom: 2px solid rgb(40, 40, 40);
 }
 
 .left-div {
