@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Live website: quickpicks.netlify.app
+Live website: https://quickpicks.netlify.app
 
 ## Available Scripts
 
